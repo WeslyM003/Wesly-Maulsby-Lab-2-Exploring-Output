@@ -11,7 +11,7 @@ Get familiar with output to command prompt
 #include <string>
 
 
-int main()
+void part1() //declares part one of the lab
 {
 //Part one of Lab 2: schedule
 	//Declares "m" as Monday
@@ -37,6 +37,10 @@ int main()
 	//Friday
 	std::cout << std::endl << f;
 
+}
+
+void part2() //declares part 2 of the lab
+{
 //Part 2 of Lab 2: Checker Board
 
 	//Declares "one" as the first row of checkers
@@ -54,5 +58,18 @@ int main()
 	std::cout << std::endl << two;
 	std::cout << std::endl << one;
 	std::cout << std::endl << two;
+
+}
+
+int main()
+{
+	part1(); //calls part one of the Lab
+	
+	part2(); //calls part two of the Lab
+
 	return(0);
 }
+
+
+
+
